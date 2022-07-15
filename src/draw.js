@@ -2770,7 +2770,7 @@ export const drawMesh = (predictions, ctx) => {
                 ], directionsAll.length, 2)) {
                     directionsAll = [];
                     noCount += 1;
-                    document.getElementById("noYes").innerHTML = "NO";
+                    document.getElementById("noYes").innerHTML = "&#128078;";
                     console.log("Person with No: %d - %d", k + 1, noCount);
 
                 } else if (isSubArray(directionsAll, [
@@ -2780,7 +2780,7 @@ export const drawMesh = (predictions, ctx) => {
                 ], directionsAll.length, 2)) {
                     directionsAll = [];
                     yesCount += 1;
-                    document.getElementById("noYes").innerHTML = "YES";
+                    document.getElementById("noYes").innerHTML = "&#128077;";
                     console.log("Person with Yes: %d - %d", k + 1, yesCount);
 
                 } else {
