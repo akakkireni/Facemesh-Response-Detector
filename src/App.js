@@ -74,6 +74,14 @@ function App() {
                     zIndex: 9,
                     height: 600
                 }}/>
+                <a href="http://localhost:3000/play">
+                <input type="button" value="Snake Game"style= {{
+                color: "blacks",
+                position:"absolute",
+                top:"850px",
+                right :"200px"           
+            }} />
+                </a>
 
                 <canvas
                     id="can"
@@ -95,7 +103,7 @@ function App() {
                 position:"absolute",
                 top:"800px",
                 fontSize:"50"
-            }}>NO</h1>
+            }}>&#128077;</h1>
             </header>
            
             {/* <button onClick = {()=> saveCanvas.savePNG("can", "File")}>Save</button> */}
