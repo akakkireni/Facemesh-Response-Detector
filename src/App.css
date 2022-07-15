@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+video {
+  transform: rotateY(0deg);
+  -webkit-transform:rotateY(0deg); 
+  -moz-transform:rotateY(0deg); 
+} 
 
 .App-logo {
   height: 40vmin;

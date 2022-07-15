@@ -6,7 +6,6 @@ import * as tf from "@tensorflow/tfjs";
 import * as facemesh from "@tensorflow-models/facemesh";
 import Webcam from 'react-webcam';
 import {drawMesh} from './draw';
-import saveCanvas from "save-canvas-to-image";
 
 function App() {
 
@@ -61,7 +60,7 @@ function App() {
 
         <div className="App">
             <header className="App-header" style={{textAlign:"end"}}>
-                <Webcam
+                <Webcam mirrored={false}
                     ref
                     ={webcamRef}
                     style={{
