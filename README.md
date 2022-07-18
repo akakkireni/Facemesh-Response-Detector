@@ -1,5 +1,6 @@
 # Facemesh-Response-Detector
  This Application is built using TensorFlow.js and React Framework.
+ Play Snake Game with your head movement: http://localhost:3000/play
  
  Working:
  
